@@ -1,0 +1,35 @@
+{
+  "aptitude": {
+    "database": {
+      "0": "MySQL",
+      "1": "SQL",
+      "name": "Veri Tabanı"
+    }
+  },
+  "description": "<p>Öğrendiğim bilgileri çeşitli projelerde uyguladım. Tecrübeli ve değerli yazılım geliştiricileri ile birlikte çalışma imkânı bularak var olan bilgi dağarcığımı daha da genişletip pratikleşmek, yeni tecrübeler edinmek ve bu tecrübelerin verdiği güvenle bana verilen görevi en iyi şekilde yapabilmek ilk ve tek dileğimdir.</p><p>Kariyer hedefim; iyi bir yazılım geliştiricisi olup, gerek proje kısmında, gerek ise uygulama kısmında herhangi bir projeyi ana şemasıyla rahatça anlayıp; oluşabilecek sorunları kısa sürede giderebilecek bilgi ve tecrübeye sahip olmaktır.</p>",
+  "info": {
+    "email": "ahmet@tashan.cc",
+    "image": "http://www.ahmettashan.com/images/pp.jpg",
+    "jobTitle": "Full-Stack",
+    "name": "Ahmet",
+    "socialMedia": {
+      "github": "https://www.github.com/ahmettashan",
+      "link": "http://www.ahmettashan.com",
+      "linkedin": "https://linkedin.com/in/ahmettashan",
+      "twitter": "https://twitter.com/ahmettashan"
+    },
+    "surname": "Taşhan",
+    "website": "ahmettashan.com"
+  },
+  "projects": {
+    "description": "2013 yılından itibaren web tasarımı ve web programlama üzerine gerek freelance gerekse bazı firma ve devlet kurumlarında çalıştım. Şimdiye kadar çalıştığım bu dönem içerisinde PHP, MYSQL, CSS, SASS, JQUERY, VUEJS, REACT gibi bir çok teknolojileri kullanmaktayım.",
+    "0": {
+      "date": 2019,
+      "description": "MVC, CodeIgniter Web Freamwork kullanılarak kodlanan HTML, SASS ve JQUERY ile Front-End'i şekillendirildi.",
+      "link": "www.ahmettashan.com",
+      "name": "Ahmet Taşhan - Blog",
+      "status": true,
+      "usedTechnologies": "PHP, CodeIgniter, MVC, Mysql, gulp.js, jQuery"
+    }
+  }
+}

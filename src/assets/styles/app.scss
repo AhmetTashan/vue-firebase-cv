@@ -1,0 +1,9 @@
+@import "./utils/_variables.scss";
+@import "./utils/_icons.scss";
+
+// import layers
+@import "./layers/global.scss";
+@import "layers/about.scss";
+@import "layers/description.scss";
+@import "layers/project.scss";
+@import "layers/aptitude.scss";

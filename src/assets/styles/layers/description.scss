@@ -1,0 +1,26 @@
+.description-layer {
+
+  &:hover {
+    .avatar {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+    }
+  }
+
+  .avatar {
+    display: block;
+    max-width: 250px;
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+    padding: .35rem;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.layer {
+  h3.layer-heading {
+    display: flex;
+    align-items: center;
+
+    &:after, &:before {
+      content: "";
+      flex-grow: 1;
+      border-bottom: 2px dashed #ccc;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  &:hover{
+    h3.layer-heading {
+      color: var(--in-body-bg);
+      transition: all 0.2s ease-in-out;
+      &:after, &:before {
+        border-color: rgba(var(--in-body-bg-rgb), 0.3);
+      }
+    }
+  }
+}
+
+
+// text align center left right justify
+$text-aling: center, right, justify, left;
+@each $item in $text-aling {
+  .text-aling-#{$item} {
+    text-align: $item;
+  }
+}
+
+@media (max-width: 767.67px) {
+  .text-aling-right {
+    text-align: left;
+  }
+}

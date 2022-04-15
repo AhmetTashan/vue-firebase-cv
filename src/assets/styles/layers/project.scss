@@ -1,0 +1,46 @@
+.text-date {
+  margin-left: 1rem;
+}
+
+@media (max-width: 767.67px) {
+  .md-row-column-reverse {
+    flex-direction: column-reverse;
+    border-top: 1px solid #e6e6e6;
+  }
+}
+
+
+.tt-icon-group {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: var(--bs-gray-200);
+  overflow: hidden;
+  text-decoration: none;
+
+  &:hover {
+    background-color: var(--bs-gray-300);
+
+    .tt-icon-group-item {
+      background-color: var(--bs-gray-400);
+    }
+  }
+
+  &-item {
+    padding: .5rem 1rem;
+    background-color: var(--bs-gray-300);
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  &-text {
+    padding: 0 1rem;
+  }
+}
+
+.tt-icon-group.disabled {
+  pointer-events: none;
+}
